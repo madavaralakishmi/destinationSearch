@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.img1 {
+  height: 200px;
+  width: 200px;
+  margin-right: 30px;
+  /*margin-left: 100px; */
+}
+
+.list {
+  list-style-type: none;
+}

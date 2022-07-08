@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.dg-color {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.unorderd {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+h1 {
+  margin-left: 40px;
+}
+
+input {
+  margin-left: 40px;
+  background-color: #f1f5f9;
+  border: none;
+  outline: none;
+}
+
+.inputContainer {
+  background-color: #f1f5f9;
+  display: flex;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-left: 35px;
+}
+
+.img2 {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 760px) {
+  .unorderd {
+    display: flex;
+    flex-direction: row;
+  }
+}
